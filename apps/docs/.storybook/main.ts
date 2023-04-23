@@ -1,5 +1,7 @@
-const path = require("path");
-module.exports = {
+import path from "path";
+import type { StorybookConfig } from "@storybook/react-vite";
+
+const config: StorybookConfig = {
   stories: ["../stories/**/*.stories.mdx", "../stories/**/*.stories.tsx"],
   addons: [
     "@storybook/addon-links",
@@ -10,6 +12,10 @@ module.exports = {
   framework: {
     name: "@storybook/react-vite",
     options: {},
+  },
+  docs: {
+    autodocs: "tag",
+    defaultName: "Documentation",
   },
   async viteFinal(config, { configType }) {
     // customize the Vite config here
@@ -30,3 +36,5 @@ module.exports = {
     };
   },
 };
+
+export default config;
