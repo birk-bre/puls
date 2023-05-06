@@ -1,5 +1,11 @@
 # puls-next
 
+## 0.0.5
+
+### Patch Changes
+
+- f216779: Add dropdown menu
+
 ## 0.0.4
 
 ### Patch Changes
