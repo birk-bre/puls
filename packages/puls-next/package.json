@@ -13,19 +13,19 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "tsup",
+    "build": "tsup && node postBuild.js",
     "dev": "tsup --watch",
     "check-types": "tsc --noEmit"
   },
   "devDependencies": {
-    "puls-tsconfig": "workspace:*",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.4",
     "eslint": "^8.15.0",
     "eslint-config-puls": "workspace:*",
     "postcss": "^8.4.23",
-    "react": "^18.1.0",
     "puls-tailwind-config": "workspace:*",
+    "puls-tsconfig": "workspace:*",
+    "react": "^18.1.0",
     "tsup": "^6.7.0",
     "typescript": "^4.5.3"
   },
