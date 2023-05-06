@@ -8,7 +8,7 @@ const meta: Meta<typeof Button> = {
   tags: ["autodocs"],
   argTypes: {
     variant: {
-      options: ["primary", "secondary", "ghost"],
+      options: ["primary", "secondary", "ghost", "icon", "iconNoBorder"],
       control: { type: "select" },
     },
     size: {
@@ -33,5 +33,13 @@ export const Secondary: Story = {
   render: (args) => <Button {...args}>Button</Button>,
   args: {
     variant: "secondary",
+  },
+};
+
+export const Icon: Story = {
+  render: (args) => <Button {...args}>:D</Button>,
+  args: {
+    variant: "icon",
+    size: "xl",
   },
 };

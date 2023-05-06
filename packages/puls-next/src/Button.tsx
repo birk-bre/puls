@@ -4,22 +4,32 @@ import { VariantProps, cva } from "class-variance-authority";
 import { cn } from "../utils/utils";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center rounded-[40px]",
+  "inline-flex items-center justify-center rounded-[40px] overflow-hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-information-dark focus-visible:ring-offset-2",
   {
     variants: {
       variant: {
         primary:
-          "text-white hover:bg-primary-60 active:bg-primary-90 bg-primary-80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-information-dark focus-visible:ring-offset-2",
+          "text-white hover:bg-primary-60 active:bg-primary-90 bg-primary-80 ",
         secondary:
-          "bg-white text-black border hover:text-white border-primary-40 hover:bg-primary-60 active:bg-primary-90 disabled:bg-neutral-40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-information-dark focus-visible:ring-offset-2",
+          "bg-white text-black border hover:text-white border-primary-40 hover:bg-primary-60 active:bg-primary-90 disabled:bg-neutral-40 ",
         ghost:
           "border border-input hover:bg-accent hover:text-accent-foreground",
+        icon: "border border-primary-40 rounded-full",
+        iconNoBorder: "border-none rounded-full",
       },
+
       size: {
-        xl: "h-16 py-5 px-12 text-3xl font-medium",
-        sm: "h-8 px-5 py-1 text-base font-medium",
+        xl: "h-16 py-5 px-12 text-3xl font-medium hover:bg-primary-60 active:bg-primary-90 disabled:bg-neutral-40",
+        sm: "h-8 px-5 py-1 text-base font-medium hover:bg-primary-60 active:bg-primary-90 disabled:bg-neutral-40",
       },
     },
+    compoundVariants: [
+      {
+        variant: ["icon", "iconNoBorder"],
+        size: "xl",
+        className: "h-9 w-9 p-2 text-base",
+      },
+    ],
     defaultVariants: {
       variant: "primary",
       size: "xl",
@@ -42,6 +52,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     );
   }
 );
+
 Button.displayName = "Button";
 
 export { Button, buttonVariants };

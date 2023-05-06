@@ -1,0 +1,121 @@
+/*
+ * Legal Disclaimer for Web licence
+ *
+ * Licence to use self-hosted webfonts for displaying dynamic text on specified website domains. Our package includes WOFF and WOFF2 font formats.
+ *
+ * Should the license page views limit be exceeded the license holder will be required to contact Lineto.com for an upgrade.
+ * 
+ * It is strictly prohibited to rename the font and to download or use these fonts in any other media. 
+ * 
+ * These Web fonts are licensed exclusively for the use on the following domain(s) and their subdomains:
+ *
+ * dips.no (monthly pageviews: <50K)
+ *
+ */
+
+@font-face {
+  font-family: 'CircularStd';
+  src: url(CircularXXWeb-Thin.woff) format('woff'),
+    url(CircularXXWeb-Thin.woff2) format('woff2');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'CircularStd';
+  src: url(CircularXXWeb-Light.woff) format('woff'),
+    url(CircularXXWeb-Light.woff2) format('woff2');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'CircularStd';
+  src: url(CircularXXWeb-Regular.woff) format('woff'),
+    url(CircularXXWeb-Regular.woff2) format('woff2');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'CircularStd';
+  src: url(CircularXXWeb-Book.woff) format('woff'),
+    url(CircularXXWeb-Book.woff2) format('woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'CircularStd';
+  src: url(CircularXXWeb-Medium.woff) format('woff'),
+    url(CircularXXWeb-Medium.woff2) format('woff2');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'CircularStd';
+  src: url(CircularXXWeb-Bold.woff) format('woff'),
+    url(CircularXXWeb-Bold.woff2) format('woff2');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'CircularStd';
+  src: url(CircularXXWeb-Black.woff) format('woff'),
+    url(CircularXXWeb-Black.woff2) format('woff2');
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'CircularStd';
+  src: url(CircularXXWeb-ExtraBlack.woff) format('woff'),
+    url(CircularXXWeb-ExtraBlack.woff2) format('woff2');
+  font-weight: 900;
+}
+
+/* Italic */
+@font-face {
+  font-family: 'CircularStd';
+  src: url(CircularXXWeb-ThinItalic.woff) format('woff'),
+    url(CircularXXWeb-ThinItalic.woff2) format('woff2');
+  font-style: italic;
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'CircularStd';
+  src: url(CircularXXWeb-LightItalic.woff) format('woff'),
+    url(CircularXXWeb-LightItalic.woff2) format('woff2');
+  font-style: italic;
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'CircularStd';
+  src: url(CircularXXWeb-Italic.woff) format('woff'),
+    url(CircularXXWeb-Italic.woff2) format('woff2');
+  font-style: italic;
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'CircularStd';
+  src: url(CircularXXWeb-BookItalic.woff) format('woff'),
+    url(CircularXXWeb-BookItalic.woff2) format('woff2');
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'CircularStd';
+  src: url(CircularXXWeb-MediumItalic.woff) format('woff'),
+    url(CircularXXWeb-MediumItalic.woff2) format('woff2');
+  font-style: italic;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'CircularStd';
+  src: url(CircularXXWeb-BoldItalic.woff) format('woff'),
+    url(CircularXXWeb-BoldItalic.woff2) format('woff2');
+  font-style: italic;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'CircularStd';
+  src: url(CircularXXWeb-BlackItalic.woff) format('woff'),
+    url(CircularXXWeb-BlackItalic.woff2) format('woff2');
+  font-style: italic;
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'CircularStd';
+  src: url(CircularXXWeb-ExtraBlackItalic.woff) format('woff'),
+    url(CircularXXWeb-ExtraBlackItalic.woff2) format('woff2');
+  font-style: italic;
+  font-weight: 900;
+}
