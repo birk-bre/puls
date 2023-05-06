@@ -11,7 +11,7 @@ importers:
         specifier: ^8.29.0
         version: 8.29.0
       eslint-config-puls:
-        specifier: workspace:0.0.0
+        specifier: workspace:*
         version: link:packages/puls-eslint-config
       prettier:
         specifier: ^2.8.0
@@ -60,7 +60,7 @@ importers:
         specifier: ^10.4.14
         version: 10.4.14(postcss@8.4.23)
       eslint-config-puls:
-        specifier: workspace:0.0.0
+        specifier: workspace:0.0.1
         version: link:../../packages/puls-eslint-config
       postcss:
         specifier: ^8.4.23
@@ -69,7 +69,7 @@ importers:
         specifier: workspace:*
         version: link:../../packages/puls-next
       puls-tsconfig:
-        specifier: workspace:0.0.0
+        specifier: workspace:0.0.1
         version: link:../../packages/puls-tsconfig
       serve:
         specifier: ^13.0.4
