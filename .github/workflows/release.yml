@@ -8,7 +8,7 @@ on:
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
-  cache-and-install:
+  release:
     runs-on: ubuntu-latest
 
     steps:
@@ -43,10 +43,7 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
-  release:
-    name: Release
-    runs-on: ubuntu-latest
-    steps:
+        
       - name: Create Release Pull Request or Publish to npm
         id: changesets
         uses: changesets/action@v1
