@@ -1,5 +1,11 @@
 # puls-next
 
+## 0.0.2
+
+### Patch Changes
+
+- 24b9f22: Include styles
+
 ## 0.0.1
 
 ### Patch Changes
