@@ -9,6 +9,5 @@ export default defineConfig((options: Options) => ({
   minify: true,
   clean: true,
   external: ["react", "react-dom"],
-  injectStyle: true,
   ...options,
 }));
