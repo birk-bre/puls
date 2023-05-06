@@ -1,5 +1,5 @@
 {
-  "name": "@puls/core",
+  "name": "@puls/next",
   "version": "0.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -18,14 +18,14 @@
     "check-types": "tsc --noEmit"
   },
   "devDependencies": {
-    "@acme/tsconfig": "workspace:*",
+    "@puls/tsconfig": "workspace:*",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.4",
     "eslint": "^8.15.0",
-    "eslint-config-acme": "workspace:*",
+    "eslint-config-puls": "workspace:*",
     "postcss": "^8.4.23",
     "react": "^18.1.0",
-    "tailwind-config": "workspace:*",
+    "@puls/tailwind-config": "workspace:*",
     "tsup": "^6.7.0",
     "typescript": "^4.5.3"
   },

@@ -24,10 +24,10 @@ const config: StorybookConfig = {
       resolve: {
         alias: [
           {
-            find: "@puls/core",
+            find: "@puls/next",
             replacement: path.resolve(
               __dirname,
-              "../../../packages/puls-core/"
+              "../../../packages/puls-next/"
             ),
           },
         ],
