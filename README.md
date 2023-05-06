@@ -43,8 +43,8 @@ This Turborepo includes the following packages and applications:
 
 - `apps/docs`: Component documentation site with Storybook
 - `packages/puls`: Core React components
-- `packages/@puls/utils`: Shared React utilities
-- `packages/@puls/tsconfig`: Shared `tsconfig.json`s used throughout the Turborepo
+- `packages/puls-utils`: Shared React utilities
+- `packages/puls-tsconfig`: Shared `tsconfig.json`s used throughout the Turborepo
 - `packages/eslint-config-puls`: ESLint preset
 
 Each package and app is 100% [TypeScript](https://www.typescriptlang.org/). Workspaces enables us to "hoist" dependencies that are shared between packages to the root `package.json`. This means smaller `node_modules` folders and a better local dev experience. To install a dependency for the entire monorepo, use the `-w` workspaces flag with `pnpm add`.

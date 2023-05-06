@@ -13,8 +13,8 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@puls/tsconfig": "workspace:0.0.0",
-    "@puls/next": "workspace:*",
+    "puls-tsconfig": "workspace:0.0.0",
+    "puls-next": "workspace:*",
     "@storybook/addon-actions": "^7.0.6",
     "@storybook/addon-docs": "^7.0.6",
     "@storybook/addon-essentials": "^7.0.6",

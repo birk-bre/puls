@@ -1,4 +1,4 @@
-# @puls/next
+# puls-next
 
 ## 0.1.0
 

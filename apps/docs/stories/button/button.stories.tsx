@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "@puls/next/src";
+import { Button } from "puls-next/src";
 
 import type { Meta, StoryObj } from "@storybook/react";
 

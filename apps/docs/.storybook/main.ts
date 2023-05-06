@@ -24,7 +24,7 @@ const config: StorybookConfig = {
       resolve: {
         alias: [
           {
-            find: "@puls/next",
+            find: "puls-next",
             replacement: path.resolve(
               __dirname,
               "../../../packages/puls-next/"

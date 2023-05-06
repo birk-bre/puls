@@ -29,12 +29,6 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
     devDependencies:
-      '@puls/next':
-        specifier: workspace:*
-        version: link:../../packages/puls-next
-      '@puls/tsconfig':
-        specifier: workspace:0.0.0
-        version: link:../../packages/puls-tsconfig
       '@storybook/addon-actions':
         specifier: ^7.0.6
         version: 7.0.6(react-dom@18.2.0)(react@18.2.0)
@@ -71,6 +65,12 @@ importers:
       postcss:
         specifier: ^8.4.23
         version: 8.4.23
+      puls-next:
+        specifier: workspace:*
+        version: link:../../packages/puls-next
+      puls-tsconfig:
+        specifier: workspace:0.0.0
+        version: link:../../packages/puls-tsconfig
       serve:
         specifier: ^13.0.4
         version: 13.0.4
@@ -117,12 +117,6 @@ importers:
         specifier: ^1.0.5
         version: 1.0.5
     devDependencies:
-      '@puls/tailwind-config':
-        specifier: workspace:*
-        version: link:../tailwind-config
-      '@puls/tsconfig':
-        specifier: workspace:*
-        version: link:../puls-tsconfig
       '@types/react':
         specifier: ^18.0.9
         version: 18.0.26
@@ -138,6 +132,12 @@ importers:
       postcss:
         specifier: ^8.4.23
         version: 8.4.23
+      puls-tailwind-config:
+        specifier: workspace:*
+        version: link:../tailwind-config
+      puls-tsconfig:
+        specifier: workspace:*
+        version: link:../puls-tsconfig
       react:
         specifier: ^18.1.0
         version: 18.2.0
@@ -150,17 +150,8 @@ importers:
 
   packages/puls-tsconfig: {}
 
-  packages/tailwind-config:
+  packages/puls-utils:
     devDependencies:
-      tailwindcss:
-        specifier: ^3.3.1
-        version: 3.3.1(postcss@8.4.23)
-
-  packages/utils:
-    devDependencies:
-      '@puls/tsconfig':
-        specifier: workspace:*
-        version: link:../puls-tsconfig
       '@types/react':
         specifier: ^18.0.9
         version: 18.0.26
@@ -173,6 +164,9 @@ importers:
       eslint-config-puls:
         specifier: workspace:*
         version: link:../puls-eslint-config
+      puls-tsconfig:
+        specifier: workspace:*
+        version: link:../puls-tsconfig
       react:
         specifier: ^18.1.0
         version: 18.2.0
@@ -182,6 +176,12 @@ importers:
       typescript:
         specifier: ^4.5.3
         version: 4.9.3
+
+  packages/tailwind-config:
+    devDependencies:
+      tailwindcss:
+        specifier: ^3.3.1
+        version: 3.3.1(postcss@8.4.23)
 
 packages:
 
