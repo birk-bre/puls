@@ -8,14 +8,11 @@ const meta: Meta<typeof Button> = {
   tags: ["autodocs"],
   argTypes: {
     variant: {
-      options: [
-        "default",
-        "destructive",
-        "outline",
-        "secondary",
-        "ghost",
-        "link",
-      ],
+      options: ["primary", "secondary", "ghost"],
+      control: { type: "select" },
+    },
+    size: {
+      options: ["xl", "sm"],
       control: { type: "select" },
     },
   },
@@ -27,7 +24,8 @@ type Story = StoryObj<typeof Button>;
 export const Default: Story = {
   render: (args) => <Button {...args}>Button</Button>,
   args: {
-    variant: "default",
+    variant: "primary",
+    size: "xl",
   },
 };
 
