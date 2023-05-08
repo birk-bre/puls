@@ -12,12 +12,10 @@ const buttonVariants = cva(
           "text-white hover:bg-primary-60 active:bg-primary-90 bg-primary-80 ",
         secondary:
           "bg-white text-black border hover:text-white border-primary-40 hover:bg-primary-60 active:bg-primary-90 disabled:bg-neutral-40 ",
-        ghost:
-          "border border-input hover:bg-accent hover:text-accent-foreground",
+        ghost: " hover:bg-primary-60 hover:text-white",
         icon: "border border-primary-40 rounded-full",
         iconNoBorder: "border-none rounded-full",
       },
-
       size: {
         xl: "h-16 py-5 px-12 text-3xl font-medium hover:bg-primary-60 active:bg-primary-90 disabled:bg-neutral-40",
         sm: "h-8 px-5 py-1 text-base font-medium hover:bg-primary-60 active:bg-primary-90 disabled:bg-neutral-40",
