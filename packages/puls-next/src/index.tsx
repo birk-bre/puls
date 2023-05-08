@@ -5,3 +5,5 @@ import "../fonts/circular-std.css";
 export { Button, type ButtonProps } from "./button";
 export * from "./dropdown-menu";
 export * from "./tooltip";
+export * from "./tag";
+export * from "./input";

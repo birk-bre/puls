@@ -11,6 +11,7 @@ module.exports = {
       black: "#000000",
       information: {
         dark: "#095ABF",
+        light: "#D8EFFF",
       },
       primary: {
         10: "#f2f5fdff",
@@ -53,6 +54,18 @@ module.exports = {
         70: "#464c50ff",
         80: "#373d40ff",
         90: "#262626ff",
+      },
+      attention: {
+        light: "#FFED96",
+      },
+      success: {
+        light: "#DDF5D8",
+      },
+      mandatory: {
+        dark: "#EC942D",
+      },
+      error: {
+        dark: "##AB321D",
       },
     },
     fontSize: {
