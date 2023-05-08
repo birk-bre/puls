@@ -7,3 +7,4 @@ export * from "./dropdown-menu";
 export * from "./tooltip";
 export * from "./tag";
 export * from "./input";
+export * from "./toast";

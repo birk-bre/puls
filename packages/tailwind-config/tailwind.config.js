@@ -60,6 +60,7 @@ module.exports = {
       },
       success: {
         light: "#DDF5D8",
+        dark: "#0F7157",
       },
       mandatory: {
         dark: "#EC942D",
