@@ -9,6 +9,13 @@ const meta: Meta<typeof Input> = {
   argTypes: {
     placeholder: { type: "string" },
     required: { type: "boolean" },
+    type: {
+      options: ["text", "password", "email", "number", "tel", "url"],
+      control: { type: "select" },
+    },
+    disabled: { type: "boolean" },
+    minLength: { type: "number" },
+    helperText: { type: "string" },
   },
 };
 

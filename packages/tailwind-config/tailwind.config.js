@@ -65,7 +65,7 @@ module.exports = {
         dark: "#EC942D",
       },
       error: {
-        dark: "##AB321D",
+        dark: "#AB321D",
       },
     },
     fontSize: {

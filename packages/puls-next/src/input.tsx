@@ -2,10 +2,12 @@ import * as React from "react";
 import { cn } from "../utils/utils";
 
 export interface InputProps
-  extends React.InputHTMLAttributes<HTMLInputElement> {}
+  extends React.InputHTMLAttributes<HTMLInputElement> {
+  helperText?: string;
+}
 
 const Input = React.forwardRef<HTMLInputElement, InputProps>(
-  ({ className, type, placeholder, ...props }, ref) => {
+  ({ className, type, placeholder, helperText, ...props }, ref) => {
     const id = React.useId();
     return (
       <div className="relative z-0">
@@ -13,7 +15,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
           id={id}
           type={type}
           className={cn(
-            "block py-3.5 required:placeholder-shown:border-mandatory-dark px-2 w-full text-sm text-gray-900 bg-transparent border rounded-sm border-neutral-40 appearance-none focus:outline-none focus:ring-0 focus:border-primary-60 peer hover:border-neutral-80 disabled:bg-neutral-40 disabled:text-neutral-60",
+            "block py-3.5 invalid:border-error-dark disabled:border-neutral-40 required:placeholder-shown:border-mandatory-dark px-2 w-full text-sm text-gray-900 bg-transparent border rounded-sm border-neutral-40 appearance-none focus:outline-none focus:ring-0 focus:border-primary-60 peer hover:border-neutral-80 disabled:bg-neutral-20 disabled:text-neutral-60",
             className
           )}
           ref={ref}
@@ -26,6 +28,11 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
         >
           {placeholder}
         </label>
+        {helperText ? (
+          <p className="text-sm text-neutral-60 pl-2 pt-1 peer-invalid:text-error-dark font-normal">
+            {helperText}
+          </p>
+        ) : null}
       </div>
     );
   }
