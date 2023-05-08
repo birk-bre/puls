@@ -1,5 +1,11 @@
 # puls-next
 
+## 0.0.6
+
+### Patch Changes
+
+- 37ae6f5: Add toast, input, tag, tooltip
+
 ## 0.0.5
 
 ### Patch Changes
