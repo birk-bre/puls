@@ -1,5 +1,11 @@
 # puls-next
 
+## 0.0.7
+
+### Patch Changes
+
+- 1fba020: Readme and package
+
 ## 0.0.6
 
 ### Patch Changes
